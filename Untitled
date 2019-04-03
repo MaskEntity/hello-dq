@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body, html {
+      height: 100%;
+    }
+
+    .parallax {
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .rain {
+      background-image: url('https://c.pxhere.com/photos/e6/a9/highspeed_photography_water_drop_of_water_alien_dance_water_games_water_reflection_mirror_treatment_splash-680119.jpg!d');
+    }
+
+    .pig {
+      background-image: url('http://theyearoflivingunofficially.com/wp-content/uploads/2011/07/YellowPigDay-300x201.png');
+    }
+    .firey{
+      background-image: url('https://elementalawakening.files.wordpress.com/2013/02/white_fire_by_xkibax.png?w=672&h=372&crop=1')
+
+    }
+  </style>
+</head>
+<body>
+
+<p>Droplets falling slowly....</p>
+
+<div class="parallax rain "></div>
+
+<div style="height:100px; background-color:blue; font-size:36px">
+The reflection always refecting
+</div>
+
+<div class="parallax pig"></div>
+
+<div style ="height:111px; background-color:red;font-size:40px">
+  do you know the way???
+</div>
+
+<div class="parallax firey"></div>
+
+<div style ="height:111px; background-color:red;font-size:40px">
+  do you know the way???
+</div>
+
+<div class="parallax rain "></div>
+
+
+</body>
+</html>
